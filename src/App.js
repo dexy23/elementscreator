@@ -6,7 +6,7 @@ import Comments from './components/Comments'
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
             <Route exact path={'/'} component={ElementsList} />

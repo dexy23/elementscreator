@@ -2,7 +2,7 @@
   "name": "elementscreator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dexy23.github.io/elementscreator",
+  "homepage": "https://dexy23.github.io/elementscreator",
   "dependencies": {
     "materialize-css": "^1.0.0",
     "react": "^16.10.2",

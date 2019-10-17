@@ -27,9 +27,9 @@ const ElementsList = () => {
     let element = e.target.parentNode.firstChild;
     let parentElement = e.target.parentNode;
     let items = elements;
-    items.forEach((item) => {
+    items.forEach((item, i) => {
       if (+element.id === item.key) {
-        items.splice(item, 1)
+        items.splice(i, 1)
       }
     })
     setElements(items);
